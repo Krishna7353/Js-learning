@@ -38,7 +38,38 @@ let func=function(){
 }
 // console.log(func);
 
-console.log(typeof func);
+console.log(typeof myObj);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitve)                -> COPY Milte h 
+// Heap(Non-Primitive )          -> Original value reffernce
+   
+
+let myYoutubename ="krishnarathod@google.com";
+let anotherYoutubename =myYoutubename;
+
+anotherYoutubename="krishna@google.com"
+
+// console.log(myYoutubename); //krishnarathod@google.com
+// console.log(anotherYoutubename); //krishna@google.com
+
+let userOne= {
+    namename:"krishna@12",
+    upiId:"krishna@ybl"
+}
+console.log(userOne); //{ namename: 'krishna@12', upiId: 'krishna@ybl' }
+let anotherUser=userOne;
+
+// here anptherUser came chnage the username , upiid changes in both user ### Reffernce 
+console.log(anotherUser); //{ namename: 'krishna@12', upiId: 'krishna@ybl' }
+
+anotherUser.upiId="DummyId";
+console.log(userOne);//{ namename: 'krishna@12', upiId: 'DummyId' }
+
+console.log(anotherUser);//{ namename: 'krishna@12', upiId: 'DummyId' }
+
+
+ 
 
 
 
