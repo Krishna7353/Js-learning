@@ -59,8 +59,11 @@ let str2=" Rathod";
  console.log("1"+2+2)
  console.log(2+2+"2");
  
+ let check = null;
+ 
+ console.log(0==0);
 
 
-
+ 
 
 
