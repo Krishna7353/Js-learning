@@ -31,13 +31,44 @@ const obj3 ={...obj1,...obj2} //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
 //console.log(obj3);
 
-
+const user=[
+    {id:1,
+     username:"krishna"   
+    },
+    {id:2,
+     username:"Alex"   
+    },
+     {id:3,
+     username:"Alex"   
+    }
+]
 
 console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('id'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty('id'));
 
+
+console.log(user[0]);
+
+
+// object de-structuring
+
+
+const course={
+    couse:"JavaScript",
+    courseIntrutor:"Krishna"
+}
+
+// const {courseIntrutor:kk,couse:e}= course
+// console.log(e);
+
+
+[
+    {},
+    {},
+    {}
+]
 
 
